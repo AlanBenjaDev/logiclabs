@@ -5,6 +5,7 @@ import Services from "@/components/Services"
 import CTA from "@/components/CTA"
 import Contact from "@/components/Contacto"
 import Footer from "@/components/Footer"
+import Results from "@/components/Results"
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <Results /> 
         <CTA />
         <Contact />
       </main>
